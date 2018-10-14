@@ -1,0 +1,97 @@
+*
+{
+    margin: auto;
+    padding: inherit;
+    font-family: fantasy;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/14.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;   
+}
+ul li
+{
+    display: inline-block;
+    
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid aqua;
+    transition: 0.6s ease;
+}
+ul li a:hover
+{
+    background-color: white;
+    color: black;
+}
+.logo img
+{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+}
+.main
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.title
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1
+{
+    color: white;
+    font-size: 60px;
+    font-family: bodoni MT;
+    
+}
+.body
+{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%,-270%);
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.body b1
+{
+    color: white;
+    font-size: 20px;
+    font-family: bodoni MT;
+    background: transparent;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.body b2
+{
+    color: white;
+    font-size: 20px;
+    font-family: bodoni MT;
+    background: transparent;
+}
+.char1 img
+{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: 270px;
+    margin-left: 200px;
+}
